@@ -12,3 +12,5 @@
 |Task 7 |Complete this source code|
 |Task 8 |Complete this source code to print object-oriented programming with Python, followed by a new line.|
 |Task 9 |Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.|
+|Task 10| Write a function in C that checks if a singly linked list has a cycle in it.|
+

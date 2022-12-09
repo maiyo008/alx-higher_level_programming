@@ -7,5 +7,6 @@
 |Task 2  |Write a function that adds all unique integers in a list (only once for each integer).|
 |Task 3  |Write a function that returns a set of common elements in two sets.|
 |Task 4  |Write a function that returns a set of all elements present in only one set.|
+|Task 5  |Write a function that returns the number of keys in a dictionary.|
 
 

@@ -23,4 +23,5 @@
 |Task 1  |Write a function that prints an integer with `{:d}".format()`|
 |Task 2  |Write a function that prints the first `x` elements of a list and only intergers|
 |Task 3  |Write a function that divides 2 integers and prints the result|
+|Task 4  |Write a function that divides element by elemeny 2 lists|
 

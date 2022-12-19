@@ -13,7 +13,7 @@ def list_division(my_list_1, my_list_2, list_length):
         a new list of length equal to list_length with all divisions
     """
     quotient_list = []
-    for i in range(list_length):
+    for i in range(0, list_length):
         try:
             quotient = my_list_1[i] / my_list_2[i]
         except TypeError:

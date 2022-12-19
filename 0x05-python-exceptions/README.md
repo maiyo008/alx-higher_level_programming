@@ -27,4 +27,5 @@
 |Task 5  |Write a function that raises a type exception|
 |Task 6  |Write a function that raises a name exception with a message|
 |Task 7  |Write a function that prints an integer|
+|Task 8  |Write a function that executes a function safely|
 

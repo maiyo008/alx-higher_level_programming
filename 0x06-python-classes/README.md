@@ -37,4 +37,5 @@
 |Task 1   |Write a class `Square` that defines a square by:(based on `0-square.py`. Private instance attribute: `size`|
 |Task 2   |Write a class `Square` that defines a square by:(based on `1-square.py`|
 |Task 3   |Write a class `Square` that defines a square by:(based on `2-square.py. Find the area of the square|
+|Task 4   |Access and Update private attributes|
 

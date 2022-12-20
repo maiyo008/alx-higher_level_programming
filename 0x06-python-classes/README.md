@@ -38,4 +38,5 @@
 |Task 2   |Write a class `Square` that defines a square by:(based on `1-square.py`|
 |Task 3   |Write a class `Square` that defines a square by:(based on `2-square.py. Find the area of the square|
 |Task 4   |Access and Update private attributes|
+|Task 5   |Printing a square|
 

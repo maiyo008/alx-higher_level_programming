@@ -40,4 +40,5 @@
 |--------|------|
 |Task 0  |Write an empty class `Rectangle` that defines a rectangle|
 |Task 1  |Add `width` and `height` attributes to the class `Rectangle`|
+|Task 2  |Add public instance methods `area`and `perimeter` to get the area and perimeter of the clas`Rectangle`|
 

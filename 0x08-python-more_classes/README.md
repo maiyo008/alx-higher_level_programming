@@ -46,4 +46,5 @@
 |Task 5  |Detect an instance deletion|
 |Task 6  |Find out the number of instances of the class `Rectangle`|
 |Task 7  |Change representation of  `Rectangle`|
+|Task 8  |Comparing rectangles|
 

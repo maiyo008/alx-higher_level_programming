@@ -13,8 +13,8 @@ class Rectangle:
             width(int): The size of width of the square
             height(int): The size of the height of the square
         """
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
@@ -26,11 +26,11 @@ class Rectangle:
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         elif value < 0:
-            raise ValueError("width must be >=0")
+            raise ValueError("width must be >= 0")
         self.__width = value
 
     @property
-    def height(self):
+    def height(self): 
         """Gets the height of the rectangle"""
         return (self.__height)
 
@@ -39,7 +39,7 @@ class Rectangle:
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         elif value < 0:
-            raise ValueError("height must be >=0")
+            raise ValueError("height must be >= 0")
         self.__height = value
 
 

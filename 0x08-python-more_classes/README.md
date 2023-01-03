@@ -44,4 +44,5 @@
 |Task 3  |String representation|
 |Task 4  |Eval is magic|
 |Task 5  |Detect an instance deletion|
+|Task 6  |Find out the number of instances of the class `Rectangle`|
 

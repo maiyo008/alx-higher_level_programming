@@ -47,4 +47,5 @@
 |Task 6  |Find out the number of instances of the class `Rectangle`|
 |Task 7  |Change representation of  `Rectangle`|
 |Task 8  |Comparing rectangles|
+|Task 9  |A square is a rectangle|
 

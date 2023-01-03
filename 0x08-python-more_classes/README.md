@@ -43,4 +43,5 @@
 |Task 2  |Add public instance methods `area`and `perimeter` to get the area and perimeter of the clas`Rectangle`|
 |Task 3  |String representation|
 |Task 4  |Eval is magic|
+|Task 5  |Detect an instance deletion|
 

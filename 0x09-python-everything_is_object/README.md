@@ -48,4 +48,5 @@
 |Task 16 |Integer incrementation|
 |Task 17 |List incrementation|
 |Task 18 |List assignation|
+|Task 19 |Write a function `def copy_list(l)`  that returns a copy of a list|
 

@@ -41,4 +41,5 @@
 |Task 9  |Is it really the same|
 |Task 10 |And with a list all is equal|
 |Task 11 |And with a list it is the same|
+|Task 12 |And with a list is it really equal|
 

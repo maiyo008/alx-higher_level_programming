@@ -30,4 +30,5 @@
 |Task No |Tasks	|
 |--------|------|
 |Task 0  |What function would you use to print the type of an object|
+|Task 1  |How do you get the variable identifier|
 

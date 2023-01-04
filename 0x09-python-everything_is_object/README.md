@@ -35,4 +35,5 @@
 |Task 3  |Right count = |
 |Task 4  |Right count = |
 |Task 5  |Right count =+|
+|Task 6  |Is equal|
 

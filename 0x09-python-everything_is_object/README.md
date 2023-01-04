@@ -39,4 +39,5 @@
 |Task 7  |Is the same|
 |Task 8  |Is really equal|
 |Task 9  |Is it really the same|
+|Task 10 |And with a list all is equal|
 

@@ -33,4 +33,5 @@
 |Task 1  |How do you get the variable identifier|
 |Task 2  |Right count|
 |Task 3  |Right count = |
+|Task 4  |Right count = |
 

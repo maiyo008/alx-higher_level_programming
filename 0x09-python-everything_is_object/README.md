@@ -46,4 +46,5 @@
 |Task 14 |List append|
 |Task 15 |List add |
 |Task 16 |Integer incrementation|
+|Task 17 |List incrementation|
 

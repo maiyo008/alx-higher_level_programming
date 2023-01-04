@@ -56,4 +56,5 @@
 |Task 24 |Who I am|
 |Task 25 |Tuple or not|
 |Task 26 |Empty is not empty|
+|Task 27 |Still the same?|
 

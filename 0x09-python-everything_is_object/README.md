@@ -38,4 +38,5 @@
 |Task 6  |Is equal|
 |Task 7  |Is the same|
 |Task 8  |Is really equal|
+|Task 9  |Is it really the same|
 

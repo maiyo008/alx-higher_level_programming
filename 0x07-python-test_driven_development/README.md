@@ -27,4 +27,5 @@
 |Task 3  |Write a function that prints a square with the character `#`|
 |Task 4  |Write a function that prints a text with 2 lines after each of this characters:`.`, `?` and `:`|
 |Task 5  |Maximum integer unittest|
+|Task 6  |Write a function that multiplies 2 matrices|
    

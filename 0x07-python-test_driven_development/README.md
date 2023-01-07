@@ -28,4 +28,5 @@
 |Task 4  |Write a function that prints a text with 2 lines after each of this characters:`.`, `?` and `:`|
 |Task 5  |Maximum integer unittest|
 |Task 6  |Write a function that multiplies 2 matrices|
+|Tast 7  |Write a function that multiplies 2 matrices by using the module Numpy|
    

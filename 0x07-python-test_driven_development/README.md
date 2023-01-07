@@ -23,4 +23,5 @@
 |--------|------|
 |Task 0  |Write a function that adds two integers|
 |Task 1  |Write a function that divides all the elements of a matrix|
+|Task 3  |Write a function that prints `My name is <first name> <last name>`|
    

@@ -1,0 +1,50 @@
+=============================================
+How to use 7-base_geometry.py
+=============================================
+
+This module defines a class ``BaseGeometry`` that contains a public instance method ``def integer_validator(self, name, value)``. This method validates the value as an integer
+
+..
+..
+	>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+	>>> bg = BaseGeometry()
+
+Usage
+======
+``def integer_validator(self, name, value)`` has a ``value`` argument that only has to be an  integer only
+
+..
+.. 
+	>>> bg.integer_validator("my_int", 67)
+
+It also has   to be of a value greater than 0
+
+..
+..
+	>>> bg.integer_validator("num", 10)
+
+Edge Cases
+===========
+The method does not accept an integer of value 0 or a negative integer - A Value error exception is going to be raised if such argument is  provided
+
+..
+..
+	>>> bg.integer_validator("name", 0)
+	Traceback (most recent call last):
+	ValueError: name must be greater than 0
+	>>> bg.integer_validator("name", -9)
+	Traceback (most recent call last):
+	ValueError: name must be greater than 0
+
+Other Types than int
+=====================
+The method accepts integers as the value assigned to the argument ``value``. If a different type is assigned to the argument, a TypeError exception is raised
+
+..
+..
+	>>> bg.integer_validator("name", "tony")
+	Traceback (most recent call last):
+	TypeError: name must be an integer
+	>>> bg.integer_validator("name", True)
+	Traceback (most recent call last):
+	TypeError: name must be an integer

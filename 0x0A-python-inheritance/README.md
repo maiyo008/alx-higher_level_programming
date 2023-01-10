@@ -54,4 +54,10 @@
 * Write an empty class `BaseGeometry`
 	* You are not allowed to import any module
 
+
+### Task 6
+* Write a class `BaseGeometry`(based on [5-base_geometry.py](https://github.com/maiyo008/alx-higher_level_programming/blob/main/0x0A-python-inheritance/5-base_geometry.py)
+	* Public instance method: `def area(self)`:  that raises an exception with the message `area() is not implemented`
+	* You are not allowed to import any module
+
  

@@ -13,9 +13,9 @@ class Rectangle(BaseGeometry):
             width (int): width of the rectangle. Greater than zero
             height (int): height of the rectangle. Greater than zero
         """
-        self.integer_validator("width", width)
+        super().integer_validator("width", width)
         self.__width = width
-        self.integer_validator("height", height)
+        super().integer_validator("height", height)
         self.__height = height
 
     def area(self):
@@ -24,6 +24,6 @@ class Rectangle(BaseGeometry):
 
     def __str__(self):
         """Returns the print() and str() of the rectangle"""
-        string = "[" + str(self.__class__.__name__) + "]"
+        string = "[" + str(self.__class__.__name__) + "] "
         string += str(self.__width) + "/" + str(self.__height)
         return (string)

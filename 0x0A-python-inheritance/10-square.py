@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 # 10-square.py
 
 """Defines a class Square that inherits from Rectangle"""

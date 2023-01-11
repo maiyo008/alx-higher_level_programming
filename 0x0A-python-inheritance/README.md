@@ -98,4 +98,12 @@
 ### Task 12
 * Write a class `MyInt` that inherits from `int`
 	* `MyInt` is a rebel. `MyInt` has `==` and `!=` operators inverted
-	* You are not allowed to import any modules  
+	* You are not allowed to import any modules
+
+### Task 13
+* Write a function that adds a new attribute to an object if it's possible
+	* Raise a `TypeError` exception, with the message `can't add new attribute` if the object does not have a new attribute
+	* You are  not allowed to use `try/except`
+	* You are not allowed to import any module
+
+  

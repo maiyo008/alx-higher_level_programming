@@ -66,22 +66,28 @@
 	* Public instance method: `def integer_validator(self, name, value): that validates `value`.
 		* you can assume `name` is always a string
 		* if value is not an integer: raise a TypeError exception, with the message <name> must be an integer
-		*if value is less or equal to 0: raise a ValueError exception with the message <name> must be greater than 0
+		* if value is less or equal to 0: raise a ValueError exception with the message <name> must be greater than 0
 	* You are not allowed to import any module
 
 ### Task 8
 * Write a class `Rectangle` that inherits from `BaseGeometry`([7-base_geometry.py](https://github.com/maiyo008/alx-higher_level_programming/blob/main/0x0A-python-inheritance/7-base_geometry.py))
 	* Instantiation with `width` and `height`: `def __init__(self, width, height):`
-		`width` and `height` must be private. No getter or setter
-		`width` and `height` must be positive integers, validated by `integer_validator`
+		* `width` and `height` must be private. No getter or setter
+		* `width` and `height` must be positive integers, validated by `integer_validator`
 
 ### Task 9
 * Write a class `Rectangle` that inherits from `BaseGeometry` (Based on [7-base_geometry.py](https://github.com/maiyo008/alx-higher_level_programming/blob/main/0x0A-python-inheritance/7-base_geometry.py))
 	* Instantiation with `width` and `height`: `height: def __init__(self, width, height):`
-		`width` and `height` must be private. No getter or setter
-		`width` and `height` must be positive integers validated by `integer_validator`
+		* `width` and `height` must be private. No getter or setter
+		* `width` and `height` must be positive integers validated by `integer_validator`
 * The `area()` method must be implemented
 * `print()` should print,  and `str()` should return, the following rectangle description: `[Rectangle] <width>/<height>`
 
+### Task 10
+* Write a class `Square` that inherits from `Rectangle` (Based on [9-rectangle.py](https://github.com/maiyo008/alx-higher_level_programming/blob/main/0x0A-python-inheritance/9-rectangle.py))
+	* Instantiation with `size: def __init__(self, size):`
+		* `size` must be private. No getter no Setter
+		* `size` must be a positive integer, validated by `integer_validator`
+	* The area must be implemented
 
 	 

@@ -95,4 +95,7 @@
 	* Instantiation with `size: def __init__(self, size):`                                                                       * `size` must be private. No getter no Setter                                                                        * `size` must be a positive integer, validated by `integer_validator`                                        * The area must be implemented 
 	* `print()` should print, and `str()` should return the square description: `[Square] <width>/<height>`
 
-  
+### Task 12
+* Write a class `MyInt` that inherits from `int`
+	* `MyInt` is a rebel. `MyInt` has `==` and `!=` operators inverted
+	* You are not allowed to import any modules  

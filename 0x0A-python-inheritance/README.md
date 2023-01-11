@@ -75,5 +75,13 @@
 		`width` and `height` must be private. No getter or setter
 		`width` and `height` must be positive integers, validated by `integer_validator`
 
+### Task 9
+* Write a class `Rectangle` that inherits from `BaseGeometry` (Based on [7-base_geometry.py](https://github.com/maiyo008/alx-higher_level_programming/blob/main/0x0A-python-inheritance/7-base_geometry.py))
+	* Instantiation with `width` and `height`: `height: def __init__(self, width, height):`
+		`width` and `height` must be private. No getter or setter
+		`width` and `height` must be positive integers validated by `integer_validator`
+* The `area()` method must be implemented
+* `print()` should print,  and `str()` should return, the following rectangle description: `[Rectangle] <width>/<height>`
+
 
 	 

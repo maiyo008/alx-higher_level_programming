@@ -90,4 +90,9 @@
 		* `size` must be a positive integer, validated by `integer_validator`
 	* The area must be implemented
 
-	 
+### Task 11
+* Write a class `Square` that inherits from `Rectangle`. (Based on [10-square.py](https://github.com/maiyo008/alx-higher_level_programming/blob/main/0x0A-python-inheritance/10-square.py))
+	* Instantiation with `size: def __init__(self, size):`                                                                       * `size` must be private. No getter no Setter                                                                        * `size` must be a positive integer, validated by `integer_validator`                                        * The area must be implemented 
+	* `print()` should print, and `str()` should return the square description: `[Square] <width>/<height>`
+
+  

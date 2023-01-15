@@ -56,4 +56,8 @@
 ### Task 4
 * Update the class `Rectangle`  by adding a public method `def area(self)`: that returns the value error of the `Rectangle` instance
 
+### Task 5
+* Undate class `Rectangle` by adding the public method `def display(self)`: that prints in the stdout the instance
+with the character # - you don't need to handle `x` and `y` here.
+
 

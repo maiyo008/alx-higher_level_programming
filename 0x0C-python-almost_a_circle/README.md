@@ -60,4 +60,7 @@
 * Undate class `Rectangle` by adding the public method `def display(self)`: that prints in the stdout the instance
 with the character # - you don't need to handle `x` and `y` here.
 
+### Task 6
+* Update the class `Rectangle` by overriding the `__str__` method so that it returns `[Rectangle] (<id>) <x>/<y> - <width>/<height>`
+
 

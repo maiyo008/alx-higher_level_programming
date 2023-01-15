@@ -40,18 +40,62 @@ class Rectangle(Base):
 
     @width.setter
     def width(self, width):
-        """Assigns value to the width"""
+        """Assigns value to the width
+
+        args
+            width (int): value of the width
+        Raises
+            TypeError: width must be an integer
+            ValueError: width must be > 0
+        """
+        if not isinstance(width, int):
+            raise TypeError("width must be an integer")
+        if (width <= 0):
+            raise ValueError("width must be > 0")
         self.__width = width
     @height.setter
     def height(self, height):
-        """Assigns value to the height"""
+        """Assigns value to the height
+
+        Args
+            height (int): value of the height
+        Raises
+            TypeError: height must be an integer
+            ValueError: height must be > 0
+        """
+        if not isinstance(height, int):
+            raise TypeError("height must be an integer")
+        if (height <= 0):
+            raise ValueError("height must be > 0")
         self.__height = height
     @x.setter
     def x(self, x):
-        """Assigns value to x"""
+        """Assigns value to x
+
+        Args
+            x (int): value for x
+        Raises
+            TypeError: x must be an integer
+            ValueError: x must be >= 0
+        """
+        if not isinstance(x, int):
+            raise TypeError("x must be an integer")
+        if (x < 0):
+            raise ValueError("x must be >= 0")
         self.__x = x
     @y.setter
     def y(self, y):
-        """Assigns value to y"""
+        """Assigns value to y
+
+        Args
+            y (int): value for y
+        Raises
+            TypeError: y must be an integer
+            ValueError: y must be >= 0
+        """
+        if not isinstance(y, int):
+            raise TypeError("y must be an integer")
+        if (y < 0):
+            raise ValueError("y must be >= 0")
         self.__y = y
 

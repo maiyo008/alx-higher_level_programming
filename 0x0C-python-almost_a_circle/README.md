@@ -118,4 +118,13 @@ with the character # - you don't need to handle `x` and `y` here.
 	* `x`
 	* `y`
 
+### Task 14
+* Update the class `Square` by adding the public method `def to_dictionary(self):` that returns the dictionary representation of a `Square`:
+* This dictionary must contain:
+	* `id`
+	* `width`
+	* `height`
+	* `x`
+	* `y` 
+
 

@@ -98,4 +98,15 @@ with the character # - you don't need to handle `x` and `y` here.
 	* The setter should assign (in this order) the `width` and the `height` - with the same value
 	* The setter should have the same value validation as the `Rectangle` for `width` and `height` - No need to change the exception error message (It should be the one from `width`)
 
+### Task 12
+* Update the class `Square` by adding the public method `def update(self, *args, **kwargs)` that assigns the attribute
+	* `*args` is the list of arguments - no-keyworded arguments
+		* 1st argument should be the `id` attribute
+		* 2nd argument should be the `size` attribute
+		* 3rd argument should be the `x` attribute
+		* 4th argument should be the `y` attribute
+	* `**kwargs` can be thought of as a double pointer to a dictionary: key/value (keyworded arguments)
+	* `**kwargs` must be skipped if `*args` exists and is not empty
+	* Each key in this dictionary represents an attribute to the instance
+
 

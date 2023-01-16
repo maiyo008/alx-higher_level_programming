@@ -63,4 +63,7 @@ with the character # - you don't need to handle `x` and `y` here.
 ### Task 6
 * Update the class `Rectangle` by overriding the `__str__` method so that it returns `[Rectangle] (<id>) <x>/<y> - <width>/<height>`
 
+### Task 7
+* Update the class `Rectangle` by improving the public method `def display(self)`: to print in the stdout the `Rectangle` instance with the character `#` by taking care of x and y
+
 

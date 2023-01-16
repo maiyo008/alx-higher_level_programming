@@ -134,4 +134,12 @@ with the character # - you don't need to handle `x` and `y` here.
 	* if `list_dictionaries` is `None` or empty, return  the string: "[]"
 	* Otherwise, return the JSON string representation of `list_dictionaries`
 
+### Task 16
+* Update the class `Base` by adding the class method `def save_to_file(cls, list_objs):` that writes the JSON string representation of `list_objs` to a file:
+	* `list_objs` is a list of instances who inherits of Base - example: list of Rectangle or list of Square instances
+	* If list_objs is None, save an empty list
+	* The filename must be: <Class name>.json - example: Rectangle.json
+	* You must use the static method to_json_string (created before)
+	* You must overwrite the file if it already exists
+
 

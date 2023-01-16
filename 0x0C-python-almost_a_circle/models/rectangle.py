@@ -118,3 +118,30 @@ class Rectangle(Base):
         string += str(self.__x) + "/" + str(self.__y)
         string += " - " + str(self.__width) + "/" + str(self.__height)
         return (string)
+    def update(self, *args):
+        """Update the parameters of Rectangle
+
+        Args
+            args[0]: id
+            args[1]: width
+            args[2]: height
+            args[3]: x
+            args[4]: y
+        """
+        if args and len(args) != 0:
+            i = 0
+            for arg in args:
+                if i == 0:
+                    if arg is None:
+                        self.__init__(self.width, self.height, self.x, self.y)
+                    else:
+                        self.id = arg
+                elif i == 1:
+                    self.width = arg
+                elif i == 2:
+                    self.height = arg
+                elif i == 3:
+                    self.x = arg
+                elif i == 4:
+                    self.y = arg
+                i += 1

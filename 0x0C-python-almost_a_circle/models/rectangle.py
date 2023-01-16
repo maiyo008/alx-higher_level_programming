@@ -118,15 +118,20 @@ class Rectangle(Base):
         string += str(self.__x) + "/" + str(self.__y)
         string += " - " + str(self.__width) + "/" + str(self.__height)
         return (string)
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """Update the parameters of Rectangle
 
-        Args
+        Args(ints)
             args[0]: id
             args[1]: width
             args[2]: height
             args[3]: x
             args[4]: y
+        **kwargs(strings):(ints)
+            width: value for width
+            height: value for height
+            x: value for x
+            y: value for y
         """
         if args and len(args) != 0:
             i = 0
@@ -145,3 +150,18 @@ class Rectangle(Base):
                 elif i == 4:
                     self.y = arg
                 i += 1
+        elif kwargs and len(kwargs) != 0:
+            for k, v in kwargs.items():
+                if k == "id":
+                    if v is None:
+                        self.__init__(self.width, self.height, self.x, self.y)
+                    else:
+                        self.id = v
+                elif k == "width":
+                    self.width = v
+                elif k == "height":
+                    self.height = v
+                elif k == "x":
+                    self.x = v
+                elif k == "y":
+                    self.y = v

@@ -207,3 +207,13 @@ __In this example, new data have been added to the table second_table.__
     * Table `first_table`
     * Field `name` in `first_table`
 
+### Task 18. Temperatures 0.
+* Import in `hbtn_0c_0` database this table dump: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/temperatures.sql)
+
+* Write a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
+
+### Task 19. Temperatures 1.
+* Write a script that displays the top 3 of cities temperature during July and August ordered by temperature (descending)
+
+### Task 20. Temperature 2.
+* Write a script that displays the max temperature of each state (ordered by State name).

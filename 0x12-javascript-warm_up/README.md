@@ -46,6 +46,18 @@ $ sudo apt-get install -y nodejs
 ```
 
 **Install semi-standard**
-Documentation
+[Documentation](https://github.com/standard/semistandard)
 
 ```$ sudo npm install semistandard --global```
+
+## Tasks 
+
+### Task 0. First constant, first print
+<Details>
+Write a script that prints “JavaScript is amazing”:
+
+* You must create a constant variable called `myVar` with the value `“JavaScript is amazing”`
+* You must use `console.log(...)` to print all output
+* You are not allowed to use `var`
+</Details>
+

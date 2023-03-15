@@ -1,5 +1,5 @@
 #!/usr/bin/node
-global.callMeMoby = function (x, theFunction) {
+const callMeMoby = function (x, theFunction) {
   if (x < 1) return;
   theFunction();
   callMeMoby(x - 1, theFunction);

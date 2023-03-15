@@ -5,7 +5,7 @@ class Square extends square {
     if (typeof c === 'undefined') {
       c = 'X';
     }
-    this.print(c);
+    super.print(c);
   }
 }
 module.exports = Square;

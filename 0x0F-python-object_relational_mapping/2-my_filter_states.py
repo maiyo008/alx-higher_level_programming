@@ -19,7 +19,8 @@ def my_filter_states():
         password=mysql_password,
         database=mysql_db)
     c = db.cursor()
-    c.execute("""SELECT * FROM states WHERE name = %s""", (query_name,))
+    query = "SELECT * FROM states WHERE name = %s"
+    c.execute(query, (query_name,))
     rows = c.fetchall()
     for row in rows:
         print(row)

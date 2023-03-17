@@ -18,7 +18,9 @@ def filter_states():
         password=mysql_password,
         database=mysql_db)
     c = db.cursor()
-    c.execute("SELECT * FROM states  WHERE name LIKE 'N%' ORDER BY id ASC")
+    c.execute(
+        "SELECT * FROM states WHERE BINARY name LIKE 'N%' ORDER BY id ASC"
+        )
     rows = c.fetchall()
     for row in rows:
         print(row)

@@ -203,3 +203,44 @@ Write a python file that contains the class definition of a State and an instanc
 * Your script should connect to a MySQL server running on localhost at port 3306
 * WARNING: all classes who inherit from Base must be imported before calling Base.metadata.create_all(engine)
 </Details>
+
+### Task 7. All states via SQLAlchemy
+<Details>
+Write a script that lists all State objects from the database hbtn_0e_6_usa
+
+* Your script should take 3 arguments: mysql username, mysql password and database name
+* You must use the module SQLAlchemy
+* You must import State and Base from model_state - from model_state import Base, State
+* Your script should connect to a MySQL server running on localhost at port 3306
+* Results must be sorted in ascending order by states.id
+* The results must be displayed as they are in the example below
+* Your code should not be executed when imported
+</Details>
+
+### Task 8. First state
+<Details>
+Write a script that prints the first State object from the database hbtn_0e_6_usa
+
+* Your script should take 3 arguments: mysql username, mysql password and database name
+* You must use the module SQLAlchemy
+* You must import State and Base from model_state - from model_state import Base, State
+* Your script should connect to a MySQL server running on localhost at port 3306
+* The state you display must be the first in states.id
+* You are not allowed to fetch all states from the database before displaying the result
+* The results must be displayed as they are in the example below
+* If the table states is empty, print Nothing followed by a new line
+* Your code should not be executed when imported
+</Details>
+
+### Task 9. Contains a
+<Details>
+Write a script that lists all State objects that contain the letter a from the database hbtn_0e_6_usa
+
+* Your script should take 3 arguments: mysql username, mysql password and database name
+* You must use the module SQLAlchemy
+* You must import State and Base from model_state - from model_state import Base, State
+* Your script should connect to a MySQL server running on localhost at port 3306
+* Results must be sorted in ascending order by states.id
+* The results must be displayed as they are in the example below
+* Your code should not be executed when imported
+</Details>

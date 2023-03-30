@@ -46,3 +46,17 @@ Write a Bash script that takes in a URL, sends a GET request to the URL, and dis
 * Display only body of a 200 status code response
 * You have to use curl
 </Details>
+
+### Task 2. cURL Method
+<Details>
+Write a Bash script that sends a DELETE request to the URL passed as the first argument and displays the body of the response
+
+* You have to use curl
+</Details>
+
+### Task 3. cURL only methods
+<Details>
+Write a Bash script that takes in a URL and displays all HTTP methods the server will accept.
+
+* You have to use curl
+</Details>

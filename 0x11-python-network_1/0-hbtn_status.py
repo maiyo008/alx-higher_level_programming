@@ -3,8 +3,7 @@
 import urllib.request
 
 
-def getURL():
-    """Fetches this url: https://alx-intranet.hbtn.io/status"""
+if __name__ == "__main__":
     url = "https://alx-intranet.hbtn.io/status"
     with urllib.request.urlopen(url) as response:
         html = response.read()
@@ -12,7 +11,3 @@ def getURL():
     print("\t- type: {}".format(type(html)))
     print("\t- content: {}".format(html))
     print("\t- utf8 content: {}".format(html.decode("utf-8")))
-
-
-if __name__ == "__main__":
-    getURL()
